@@ -73,6 +73,54 @@ input, select, textarea {
 
 /* Basic */
 
+@-webkit-keyframes AnimationName1 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName1 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName1 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-webkit-keyframes AnimationName2 {
+    0%{background-position:55% 0%}
+    50%{background-position:46% 100%}
+    100%{background-position:55% 0%}
+}
+@-moz-keyframes AnimationName2 {
+    0%{background-position:55% 0%}
+    50%{background-position:46% 100%}
+    100%{background-position:55% 0%}
+}
+@keyframes AnimationName2 {
+    0%{background-position:55% 0%}
+    50%{background-position:46% 100%}
+    100%{background-position:55% 0%}
+}
+
+@-webkit-keyframes AnimationName3 {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName3 {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@keyframes AnimationName3 {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -3033,7 +3081,9 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.spotlights > section > .content {
+		.spotlights > section > .content1,
+		.spotlights > section > .content2,
+		.spotlights > section > .content3 {
 			padding: 4em 5em 2em 5em ;
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3047,8 +3097,39 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 50em;
+			/* width: 50em; */
+			width: 100%;
 			-ms-flex: 1;
+
+			background-color: #636363;
+			transition: background-color 1s ease;
+		}
+
+		.spotlights > section > .content1 {
+			background: linear-gradient(181deg, #2f4f4f, #483d8b, #736f6f);
+			background-size: 800% 800%;
+
+			-webkit-animation: AnimationName 46s ease infinite;
+			-moz-animation: AnimationName 46s ease infinite;
+			animation: AnimationName 46s ease infinite;
+		}
+
+		.spotlights > section > .content2 {
+			background: linear-gradient(15deg,#02426d,#012155,#3b010a);
+			background-size: 600% 600%;
+
+			-webkit-animation: AnimationName2 30s ease infinite;
+			-moz-animation: AnimationName2 30s ease infinite;
+			animation: AnimationName2 30s ease infinite;
+		}
+
+		.spotlights > section > .content3 {
+			background: linear-gradient(231deg, #adadad, #555454, #1d4da7, #000000);
+			background-size: 800% 800%;
+
+			-webkit-animation: AnimationName3 30s ease infinite;
+			-moz-animation: AnimationName3 30s ease infinite;
+			animation: AnimationName3 30s ease infinite;
 		}
 
 			.spotlights > section > .content > .inner {
@@ -3211,6 +3292,12 @@ input, select, textarea {
 			width: 75em;
 		}
 
+		#intro > .inner > p,
+		.wrapper > .inner h1 {
+			color: rgba(255, 255, 255);
+			text-shadow: black 1px 0 10px;
+		}
+
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
@@ -3240,7 +3327,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			/* background-color: #5e42a6; */
+			background-color: darkgrey;
 		}
 
 		.wrapper.style1-alt {
@@ -3524,7 +3612,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #000000;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3737,7 +3825,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3761,14 +3849,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: darkslateblue;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, slategrey, slateblue);
+				background-image: -webkit-linear-gradient(to right, slategrey, slateblue);
+				background-image: -ms-linear-gradient(to right, slategrey, slateblue);
+				background-image: linear-gradient(to right, slategrey, slateblue);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3781,7 +3869,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: darkgrey;
 			}
 
 				#sidebar nav a.active:after {
@@ -3857,7 +3945,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: darkgrey;
 						}
 
 		}
@@ -3874,10 +3962,14 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		/* background-image: url("images/intro.svg"); */
+		/* background-image: url("images/noise2.png"); */
+		/* background-image: url("images/noise.png"); */
+		background-image: url("images/noise1000.png");
+		/* background-image: url("images/noise4000.png"); */
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: cover;
 	}
 
 		#intro p {
