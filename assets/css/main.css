@@ -2060,6 +2060,10 @@ input, select, textarea {
 				border-left: solid 1px rgba(255, 255, 255, 0.15);
 			}
 
+			.features section:nth-child(3n-2) {
+				border-left: none;
+			}
+
 			.features section .skills {
 				-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
@@ -2598,27 +2602,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .skills:before {
-					color: #5e42a6;
+					/* color: #5e42a6; */
 				}
 
 				.wrapper.style1-alt .skills:before {
-					color: #493382;
+					/* color: #493382; */
 				}
 
 				.wrapper.style2 .skills:before {
-					color: #5052b5;
+					/* color: #5052b5; */
 				}
 
 				.wrapper.style2-alt .skills:before {
-					color: #3e4094;
-				}
+					/* color: #3e4094; */
+				}	
 
 				.wrapper.style3 .skills:before {
-					color: #ffffff;
+					/* color: #ffffff; */
 				}
 
 				.wrapper.style3-alt .skills:before {
-					color: #ffffff;
+					/* color: #ffffff; */
 				}
 
 /* Image */
