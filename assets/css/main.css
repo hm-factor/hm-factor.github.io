@@ -2043,20 +2043,24 @@ input, select, textarea {
 
 		.features section {
 			padding: 3.5em 3em 1em 7em ;
-			width: 50%;
+			width: 33.33%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
 
-			.features section:nth-child(-n + 2) {
+			.features section:nth-child(-n + 3) {
 				border-top-width: 0;
 			}
 
-			.features section:nth-child(2n) {
+			.features section:nth-child(n) {
 				border-left: solid 1px rgba(255, 255, 255, 0.15);
 			}
 
-			.features section .icon {
+			.features section:nth-child(n) {
+				border-left: solid 1px rgba(255, 255, 255, 0.15);
+			}
+
+			.features section .skills {
 				-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
 				-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
@@ -2075,147 +2079,147 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-			.features section:nth-child(1) .icon {
+			.features section:nth-child(1) .skills {
 				-moz-transition-delay: 0.15s;
 				-webkit-transition-delay: 0.15s;
 				-ms-transition-delay: 0.15s;
 				transition-delay: 0.15s;
 			}
 
-			.features section:nth-child(2) .icon {
+			.features section:nth-child(2) .skills {
 				-moz-transition-delay: 0.3s;
 				-webkit-transition-delay: 0.3s;
 				-ms-transition-delay: 0.3s;
 				transition-delay: 0.3s;
 			}
 
-			.features section:nth-child(3) .icon {
+			.features section:nth-child(3) .skills {
 				-moz-transition-delay: 0.45s;
 				-webkit-transition-delay: 0.45s;
 				-ms-transition-delay: 0.45s;
 				transition-delay: 0.45s;
 			}
 
-			.features section:nth-child(4) .icon {
+			.features section:nth-child(4) .skills {
 				-moz-transition-delay: 0.6s;
 				-webkit-transition-delay: 0.6s;
 				-ms-transition-delay: 0.6s;
 				transition-delay: 0.6s;
 			}
 
-			.features section:nth-child(5) .icon {
+			.features section:nth-child(5) .skills {
 				-moz-transition-delay: 0.75s;
 				-webkit-transition-delay: 0.75s;
 				-ms-transition-delay: 0.75s;
 				transition-delay: 0.75s;
 			}
 
-			.features section:nth-child(6) .icon {
+			.features section:nth-child(6) .skills {
 				-moz-transition-delay: 0.9s;
 				-webkit-transition-delay: 0.9s;
 				-ms-transition-delay: 0.9s;
 				transition-delay: 0.9s;
 			}
 
-			.features section:nth-child(7) .icon {
+			.features section:nth-child(7) .skills {
 				-moz-transition-delay: 1.05s;
 				-webkit-transition-delay: 1.05s;
 				-ms-transition-delay: 1.05s;
 				transition-delay: 1.05s;
 			}
 
-			.features section:nth-child(8) .icon {
+			.features section:nth-child(8) .skills {
 				-moz-transition-delay: 1.2s;
 				-webkit-transition-delay: 1.2s;
 				-ms-transition-delay: 1.2s;
 				transition-delay: 1.2s;
 			}
 
-			.features section:nth-child(9) .icon {
+			.features section:nth-child(9) .skills {
 				-moz-transition-delay: 1.35s;
 				-webkit-transition-delay: 1.35s;
 				-ms-transition-delay: 1.35s;
 				transition-delay: 1.35s;
 			}
 
-			.features section:nth-child(10) .icon {
+			.features section:nth-child(10) .skills {
 				-moz-transition-delay: 1.5s;
 				-webkit-transition-delay: 1.5s;
 				-ms-transition-delay: 1.5s;
 				transition-delay: 1.5s;
 			}
 
-			.features section:nth-child(11) .icon {
+			.features section:nth-child(11) .skills {
 				-moz-transition-delay: 1.65s;
 				-webkit-transition-delay: 1.65s;
 				-ms-transition-delay: 1.65s;
 				transition-delay: 1.65s;
 			}
 
-			.features section:nth-child(12) .icon {
+			.features section:nth-child(12) .skills {
 				-moz-transition-delay: 1.8s;
 				-webkit-transition-delay: 1.8s;
 				-ms-transition-delay: 1.8s;
 				transition-delay: 1.8s;
 			}
 
-			.features section:nth-child(13) .icon {
+			.features section:nth-child(13) .skills {
 				-moz-transition-delay: 1.95s;
 				-webkit-transition-delay: 1.95s;
 				-ms-transition-delay: 1.95s;
 				transition-delay: 1.95s;
 			}
 
-			.features section:nth-child(14) .icon {
+			.features section:nth-child(14) .skills {
 				-moz-transition-delay: 2.1s;
 				-webkit-transition-delay: 2.1s;
 				-ms-transition-delay: 2.1s;
 				transition-delay: 2.1s;
 			}
 
-			.features section:nth-child(15) .icon {
+			.features section:nth-child(15) .skills {
 				-moz-transition-delay: 2.25s;
 				-webkit-transition-delay: 2.25s;
 				-ms-transition-delay: 2.25s;
 				transition-delay: 2.25s;
 			}
 
-			.features section:nth-child(16) .icon {
+			.features section:nth-child(16) .skills {
 				-moz-transition-delay: 2.4s;
 				-webkit-transition-delay: 2.4s;
 				-ms-transition-delay: 2.4s;
 				transition-delay: 2.4s;
 			}
 
-			.features section:nth-child(17) .icon {
+			.features section:nth-child(17) .skills {
 				-moz-transition-delay: 2.55s;
 				-webkit-transition-delay: 2.55s;
 				-ms-transition-delay: 2.55s;
 				transition-delay: 2.55s;
 			}
 
-			.features section:nth-child(18) .icon {
+			.features section:nth-child(18) .skills {
 				-moz-transition-delay: 2.7s;
 				-webkit-transition-delay: 2.7s;
 				-ms-transition-delay: 2.7s;
 				transition-delay: 2.7s;
 			}
 
-			.features section:nth-child(19) .icon {
+			.features section:nth-child(19) .skills {
 				-moz-transition-delay: 2.85s;
 				-webkit-transition-delay: 2.85s;
 				-ms-transition-delay: 2.85s;
 				transition-delay: 2.85s;
 			}
 
-			.features section:nth-child(20) .icon {
+			.features section:nth-child(20) .skills {
 				-moz-transition-delay: 3s;
 				-webkit-transition-delay: 3s;
 				-ms-transition-delay: 3s;
 				transition-delay: 3s;
 			}
 
-		.features.inactive section .icon {
+		.features.inactive section .skills {
 			-moz-transform: scale(0.5);
 			-webkit-transform: scale(0.5);
 			-ms-transform: scale(0.5);
@@ -2247,7 +2251,7 @@ input, select, textarea {
 				padding: 2.5em 1.5em 0.1em 5.5em ;
 			}
 
-				.features section .icon {
+				.features section .skills {
 					left: 1.5em;
 					top: 2em;
 				}
@@ -2260,7 +2264,7 @@ input, select, textarea {
 				padding: 2em 1.5em 0.1em 1.5em ;
 			}
 
-				.features section .icon {
+				.features section .skills {
 					left: 0;
 					position: relative;
 					top: 0;
@@ -2532,7 +2536,8 @@ input, select, textarea {
 
 /* Icon */
 
-	.icon {
+	.icon,
+	.skills {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
@@ -2551,60 +2556,69 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
+		.skills:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+		}
+
 		.icon > .label {
 			display: none;
 		}
 
-		.icon:before {
+		.icon:before,
+		.skills:before {
 			line-height: inherit;
 		}
 
-		.icon.solid:before {
-			font-weight: 900;
+		.skills:before {
+			font-weight: none;
 		}
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-		.icon.major {
+		.skills {
 			width: 2.5em;
 			height: 2.5em;
 			display: block;
-			background: #ffffff;
-			border-radius: 100%;
-			color: #312450;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
 		}
 
-			.icon.major:before {
-				font-size: 1.25em;
+			.skills:before {
+				font-size: 2.25em;
 			}
 
-				.wrapper.style1 .icon.major:before {
+				.wrapper.style1 .skills:before {
 					color: #5e42a6;
 				}
 
-				.wrapper.style1-alt .icon.major:before {
+				.wrapper.style1-alt .skills:before {
 					color: #493382;
 				}
 
-				.wrapper.style2 .icon.major:before {
+				.wrapper.style2 .skills:before {
 					color: #5052b5;
 				}
 
-				.wrapper.style2-alt .icon.major:before {
+				.wrapper.style2-alt .skills:before {
 					color: #3e4094;
 				}
 
-				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+				.wrapper.style3 .skills:before {
+					color: #ffffff;
 				}
 
-				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+				.wrapper.style3-alt .skills:before {
+					color: #ffffff;
 				}
 
 /* Image */
@@ -2661,7 +2675,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-/* List */
+/* List */em
 
 	ol {
 		list-style: decimal;
@@ -3344,11 +3358,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #36454f;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #36454f;
 		}
 
 		.wrapper.fullscreen {
