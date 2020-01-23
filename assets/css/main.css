@@ -2679,6 +2679,28 @@ input, select, textarea {
 				width: 100%;
 			}
 
+	.profpic {
+		display: flex;
+		width: 70%;
+	}
+
+	#three.profpic {
+		min-width: 200px;
+	}
+
+	.profpic img {
+		width: 33%;
+		border-radius: 100%;
+	}
+
+	.profpic p {
+		margin-left: 15%;
+	}
+
+	.bottom {
+		background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(14,16,61,1) 35%, rgba(69,73,64,1) 100%);
+	}
+
 /* List */em
 
 	ol {
@@ -3350,7 +3372,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #36454f;
 		}
 
 		.wrapper.style2 {
@@ -4017,3 +4039,7 @@ input, select, textarea {
 			}
 
 		}
+
+	#three h2 {
+		margin: 0 0 40px 28px;
+	}
