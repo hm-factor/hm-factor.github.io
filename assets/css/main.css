@@ -3025,11 +3025,11 @@ input, select, textarea {
 			}
 
 			.split.style1 > :nth-child(2n - 1) {
-				width: calc(66.66666% - 2em);
+				width: calc(80% - 2em);
 			}
 
 			.split.style1 > :nth-child(2n) {
-				width: calc(33.33333% - 2em);
+				width: calc(20% - 2em);
 			}
 
 		}
