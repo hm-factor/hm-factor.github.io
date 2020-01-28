@@ -2686,15 +2686,18 @@ input, select, textarea {
 
 	#three.profpic {
 		min-width: 200px;
+		
 	}
 
 	.profpic img {
 		width: 33%;
-		border-radius: 100%;
+		/* border-radius: 100%; */
+		object-fit: contain;
 	}
 
 	.profpic p {
-		margin-left: 15%;
+		margin-left: 5%;
+		align-self: center;
 	}
 
 	.bottom {
