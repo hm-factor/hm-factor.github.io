@@ -2879,6 +2879,12 @@ input, select, textarea {
 
 /* Contact */
 
+.contact-section {
+	margin: 0 auto;
+	display: flex;
+	text-align: center;
+}
+
 	ul.contact {
 		list-style: none;
 		padding: 0;
@@ -4045,7 +4051,3 @@ input, select, textarea {
 			}
 
 		}
-
-	#three h2 {
-		margin: 0 0 40px 28px;
-	}
